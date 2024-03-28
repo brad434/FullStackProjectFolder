@@ -43,8 +43,8 @@ function createMessage(fahren, celc) {
  * @returns {number} a number between 0 and the int passed in
  */
 function rand(limit) {
-  let monkey = Math.floor(Math.random() * limit);
-  return monkey;
+  let i = Math.floor(Math.random() * limit);
+  return i;
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
